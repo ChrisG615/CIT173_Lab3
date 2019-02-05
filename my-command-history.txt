@@ -1,0 +1,171 @@
+    1  man screen
+    2  quit
+    3  screen
+    4  exit
+    5  exit
+    6  screen
+    7  exit
+    8  exit
+    9  split
+   10  exit
+   11  sudo apt-get -y update && sudo apt-get -y upgrade
+   12  ls
+   13  git clone https://github.com/RenoTechnologyAcademy/CIT173_Lab2_Files.git
+   14  mkdir ~/CIT173_Lab2
+   15  cat ~/CIT173_Lab2_Files/phonebook1.txt ~/CIT173_Lab2_Files/phonebook2 > ~/CIT173_Lab2/my_phonebook.txt
+   16  cat ~/CIT173_Lab2_Files/phonebook1.txt ~/CIT173_Lab2_Files/phonebook2.txt > ~/CIT173_Lab2/my_phonebook.txt
+   17  man wc
+   18  wc -wlc ~/CIT173_Lab2/my_phonebook.txt
+   19  cat ~/CIT173_Lab2/my_phonebook.txt | less
+   20  cat ~/CIT173_Lab2_Files/phonelisting1.txt ~/CIT173_Lab2_Files/phonelisting2.txt > ~/CIT173_Lab2/my_phonelisting.txt
+   21  tac ~/CIT173_Lab2/my_phonebook.txt  > ~/CIT173_Lab2/my_phonebook_reverse.txt
+   22  clear
+   23  man join
+   24  cat ~/CIT173_Lab2/my_phonebook.txt 
+   25  cat ~/CIT173_Lab2/my_phonelisting.txt 
+   26  join ~/CIT173_Lab2/my_phonebook.txt ~/CIT173_Lab2/my_phonelisting.txt > ~/CIT173_Lab2/my_joined_phonebook.txt
+   27  cat ~/CIT173_Lab2/my_joined_phonebook.txt 
+   28  clear
+   29  man unexpand
+   30  unexpand ~/CIT173_Lab2/my_phonebook > ~/CIT173_Lab2/my_tabbed_phonebook.txt
+   31  man sort
+   32  sort ~/CIT173_Lab2/my_phonebook.txt | less
+   33  sort -id ~/CIT173_Lab2/my_phonebook.txt | less
+   34  man sort
+   35  sort -id ~/CIT173_Lab2/my_phonebook.txt | less
+   36  man sort
+   37  sort -fh ~/CIT173_Lab2/my_phonebook.txt | less
+   38  man sort
+   39  sort ~/CIT173_Lab2/my_phonebook.txt > ~/CIT173_Lab2/my_sorted_phonebook.txt
+   40  man nl
+   41  nl -v 1 ~/CIT173_Lab2/my_phonebook.txt > ~/CIT173_Lab2/my_numbered_phonebook.txt 
+   42  head ~/CIT173_Lab2/my_phonebook.txt  > ~/CIT173_Lab2/my_head_phonebook.txt
+   43  tail ~/CIT173_Lab2/my_phonebook.txt > ~/CIT173_Lab2/my_tail.phonebook.txt
+   44  history > ~/CIT173_Lab2/my_command_history.txt
+   45  cd ~/CIT173_Lab2
+   46  ls
+   47  less my_head_phonebook.txt 
+   48  less my_joined_phonebook.txt 
+   49  cd
+   50  clear
+   51  ls
+   52  cd ~/CIT173_Lab2
+   53  ls
+   54  less my_numbered_phonebook.txt 
+   55  less my_phonebook_reverse.txt 
+   56  ls
+   57  less my_phonebook
+   58  less my_phonebook.txt 
+   59  git init
+   60  git remote add origin https://github.com/ChrisG615/CIT173_Lab2.git
+   61  git add --all
+   62  git commit -m "Initial commit."
+   63  git config --global user.email chrisgibson615@gmail.com
+   64  git config --global user.name ChrisG615
+   65  git commit -m "Initial commit."
+   66  git push origin master
+   67  cd
+   68  shut down
+   69  sudo shutdown
+   70  sudo apt-get -y update && sudo apt-get -y upgrade
+   71  man killall
+   72  clear
+   73  screen --version
+   74  screen
+   75  screen -ls
+   76  screen -r 176
+   77  screen -r 1769
+   78  screen -r 1769.Test
+   79  clear
+   80  screen -S Test
+   81  screen -ls
+   82  screens -d 176
+   83  screen -d 176
+   84  clear
+   85  mkdir ~/CIT173_Lab3
+   86  whoami
+   87  git clone https://github.com/RenoTechnologyAcademy/CIT_173_Lab3_Files.git
+   88  git clone https://github.com/RenoTechnologyAcademy/CIT173_Lab3_Files.git
+   89  ls
+   90  env
+   91  env less
+   92  env | less
+   93  less /etc/DIR_COLORS
+   94  less /etc/LS_COLORS
+   95  less ~/.dir_colors
+   96  clear
+   97  shutdown
+   98  shutdown now
+   99  sudo apt-get -y update && sudo apt-get -y upgrade
+  100  ls
+  101  cd CIT173_Lab3_Files/
+  102  ls
+  103  sudo tar -xvf ~/CIT173_Lab3_Files/phonebook.tar.gz 
+  104  cd ~/CIT173_Lab3
+  105  ls
+  106  sudo tar -xvf ~/CIT173_Lab3_Files/phonebook.tar.gz 
+  107  ls
+  108  cat ~/CIT173_Lab3/phonebook1.txt 
+  109  sudo cat phonelisting1.txt
+  110  man sed
+  111  ls
+  112  sudo cat phonelisting1.txt > phonelising1_copy1.txt
+  113  ls
+  114  man sed
+  115  ls
+  116  rm phonelisting1_copy1.txt
+  117  sudo rom ~/CIT173_Lab3/phonelising1_copy1.txt
+  118  ls
+  119  rm phonelising1_copy1.txt 
+  120  sudo cat phonebook1.txt > phonebook1_copy1.txt
+  121  sudo sed s/575/775/ phonebook1_copy1.txt
+  122  sudo sed s/575/775/ phonebook1.txt 
+  123  rm phonebook1_copy1.txt 
+  124  sudo sed s/575/775/ phonebook2.txt 
+  125  sudo -i
+  126  sudo apt-get install python3-minimal
+  127  uname
+  128  uname -a
+  129  sudo apt autoremove
+  130  man apt
+  131  sudo apt list --installed
+  132  sudo apt list --installed > ~/CIT173_Lab3/'my-installed-1.txt'
+  133  man python
+  134  ls
+  135  sudo python ~/CIT173_Lab3_Files/hello.py
+  136  man python
+  137  sudo python -c ~/CIT173_Lab3_Files/hello.py
+  138  man python
+  139  sudo python -m ~/CIT173_Lab3_Files/hello.py
+  140  cd ~/CIT173_Lab3_Files/
+  141  ./hello.py
+  142  sudo ./hello.py
+  143  sudo python hello.py
+  144  ls
+  145  sudo python hello.py > ~/CIT173_Lab3/'my-python-output.txt'
+  146  python hello.py > ~/CIT173_Lab3/'my-python-output.txt'
+  147  sudo python3 hello.py > ~/CIT173_Lab3/'my-python-output.txt'
+  148  cd ~/CIT173_Lab3/
+  149  ls
+  150  less 'my-python-output.tzt
+  151  less 'my-python-output.txt'
+  152  shutdown -now
+  153  shutdown now
+  154  man apt
+  155  sudo apt list --installed
+  156  ls
+  157  python3 ~/CIT173_Lab3_Files/infinite.py &
+  158  ps x
+  159  ps -A > ~/CIT173_Lab3/'my-process-list-1.txt'
+  160  top k
+  161  top -k
+  162  top kill 1695
+  163  top k 1695
+  164  top
+  165  kill
+  166  python3 ~/CIT173_Lab3_Files/infinite.py &
+  167  kill 1747
+  168  ps -A > ~/CIT173_Lab3/'my-processes-2.txt'
+  169  sudo apt-get remove python3-minimal
+  170  apt list --installed > ~/CIT173_Lab3/'my-installed-2.txt'
+  171  history > ~/CIT173_Lab3/'my-command-history.txt'
